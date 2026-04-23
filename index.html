@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TECNO4KT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header>
+    <h1>TECNO4KT</h1>
+    <p>Accesorios y equipos tecnológicos</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+    <a href="#">Correos</a>
+</nav>
+
+
+<section class="banner">
+    <h2>Los mejores  equipos y accesorios para ti</h2>
+    <p>Calidad y buen precio</p>
+</section>
+
+<div class="carrito">🛒</div>
+
+<div id="contenedor-carrito"></div>
+   <h2>Carrito</h2>
+   <ul id="carrito"></ul>
+   <p id="total">Total: $0</p>
+<button onclick="EliminarDelCarrito()">Eliminar Del Carrito</button>
+</div>
+
+
+
+<section>
+    <h2>Productos</h2>
+
+    <div class="productos">
+
+        <div class="card">
+            <img src="img/mouse.jpg"> 
+            <h3>Mouse Gamer</h3>
+            <p>$50.000</p>
+            <button onclick="comprar('Mouse Gamer',50000)">Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="img/teclado.jpg">
+            <h3>Teclados para todos los gustos</h3>
+            <p>$120.000</p>
+            <button onclick="comprar('Teclado',120000)">Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="img/audifonos.jpg"> 
+            <h3>Audífonos de la mas alta calidad</h3>
+            <p>$120.000</p>
+            <button onclick="comprar('Audífonos',120000)">Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="img/cpu.jpg"> 
+            <h3>CPU</h3>
+            <p>$1.200.000</p>
+            <button onclick="comprar('CPU',1200000)">Comprar</button>
+        </div>
+        
+        
+        <div class="card">
+            <img src="img/iphone.jpg"> 
+            <h3>iPhone mas nuevos</h3>
+            <p>$1.600.000</p>
+            <button onclick="comprar('iPhone',1600000)">Comprar</button>
+        </div>
+
+         <div class="card">
+            <img src="img/play5.jpg"> 
+            <h3>PlayStation 5</h3>
+            <p>$1.700.000</p>
+            <button onclick="comprar('PlayStation 5',1700000)">Comprar</button>
+        </div>
+
+        
+        <div class="card">
+            <img src="img/mac.jpg"> 
+            <h3>MacBook</h3>
+            <p>$2.800.000</p>
+            <button onclick="comprar('MacBook',2800000)">Comprar</button>
+        </div>
+
+        
+        <div class="card">
+            <img src="img/nintendo.jpg"> 
+            <h3>Nintendo Switch</h3>
+            <p>$2.100.000</p>
+            <button onclick="comprar('Nintendo Switch',2100000)">Comprar</button>
+        </div>
+
+        
+        <div class="card">
+            <img src="img/camaras.jpg"> 
+            <h3>Camaras a tu gusto</h3>
+            <p>$1.300.000</p>
+            <button onclick="comprar('Camaras a tu gusto',1300000)">Comprar</button>
+        </div>
+
+        
+        <div class="card">
+            <img src="img/televisores.jpg"> 
+            <h3>Televisores alta calidad</h3>
+            <p>$2.200.000</p>
+            <button onclick="comprar('Televisores alta calidad',2200000)">Comprar</button>
+        </div>
+
+        
+        <div class="card">
+            <img src="img/tarjespotify.jpg"> 
+            <h3>Tarjeta Spotify</h3>
+            <p>$20.000</p>
+            <button onclick="comprar('Tarjeta Spotify',20000)">Comprar</button>
+        </div>
+
+        
+        <div class="card">
+            <img src="img/jbl.jpg"> 
+            <h3>Equipos JBL Para una experiencia unica</h3>
+            <p>$1.400.000</p>
+            <button onclick="comprar('Equipos JBL Para una experiencia unica',1400000)">Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="img/tarjetaplay.jpg"> 
+            <h3>Tarjeta PlayStation</h3>
+            <p>$50.000</p>
+            <button onclick="comprar('Tarjeta PlayStation',50000)">Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="img/gafas.jpg"> 
+            <h3>Gafas</h3>
+            <p>$1.900.000</p>
+            <button onclick="comprar('Gafas',1900000)">Comprar</button>
+        </div>
+
+            <div class="card">
+                <img src="img/xbox.jpg"> 
+                <h3>Xbox Series X</h3>
+                <p>$2.500.000</p>
+                <button onclick="comprar('Xbox Series X',2500000)">Comprar</button>
+
+
+        </div>
+
+<section class="contacto">
+  <h2>Contacto</h2>
+
+  <form class="form-contacto">
+    <input type="text" placeholder="Nombre">
+    <input type="email" placeholder="Correo">
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 TECNO4KT
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
